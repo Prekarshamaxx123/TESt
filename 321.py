@@ -29,8 +29,7 @@ os.system('clear')
 logo = '\n\x1b[1;94m########  ####    ###    ######## \n\x1b[1;92m##     ##  ##    ## ##        ##  \n\x1b[1;93m##     ##  ##   ##   ##      ##   \n\x1b[1;95m########   ##  ##     ##    ##    \n\x1b[1;94m##   ##    ##  #########   ##     \n\x1b[1;96m##    ##   ##  ##     ##  ##      \n\x1b[1;94m##     ## #### ##     ## ######## \n\x1b[32;1m=========================================\n \x1b[37;1m[\x1b[41;1m STATUS PAID TOOL RS_200PK\x1b[00;1m\x1b[37;1m ]\n\n \x1b[32;1m=========================================\n \x1b[32;1mCreator \x1b[37;1m: \x1b[33;1mRIAZKHAN\x1b\n \x1b[32;1mVersion \x1b[37;1m: \x1b[33;1m1.2\n \x1b[32;1m=========================================\n'
 
 def reg():
-    os.system('clear')
-    print logo
+    os.system('clear ')
     print ''
     print '\x1b[1;31;1mTake The Approval For Login'
     print ''
