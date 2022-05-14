@@ -66,14 +66,7 @@ bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "0
 done = False
 
 def jalan(z):
-    for e in z + '\n':
-        sys.stdout.write(e)
-        sys.stdout.flush()
-        time.sleep(0.01)
 
-def main_apv():
-    imt="=EVIL="
-    ak="=HAMII="
 
      
 logo =                                          """   
