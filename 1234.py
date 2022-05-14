@@ -74,12 +74,7 @@ def jalan(z):
 def main_apv():
     imt="=EVIL="
     ak="=HAMII="
-    os.system('clear')
-    print(logo)
-    try:
-        key1=open('/data/data/com.termux/files/usr/bin/.mlk-cov', 'r').read()
-    except IOError:
-        os.system("clear")
+
      
 logo =                                          """   
 \033[1;31mO))     O))      O)       O))       O) )O) )O))
