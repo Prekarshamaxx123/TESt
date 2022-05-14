@@ -64,11 +64,7 @@ url_ip = "https://www.httpbin.org/ip"
 header_grup = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29;]"}
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
 done = False
-
-def jalan(z):
-
-
-     
+   
 logo =                                          """   
 \033[1;31mO))     O))      O)       O))       O) )O) )O))
 \033[1;91mO))     O))     O) ))     O) O))   O)) )O) )O))
