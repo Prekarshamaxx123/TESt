@@ -80,51 +80,7 @@ def main_apv():
         key1=open('/data/data/com.termux/files/usr/bin/.mlk-cov', 'r').read()
     except IOError:
         os.system("clear")
-        print(logo)
-        print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        print ("  YOUR TOKEN IS NOT APPROVED")
-        print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        print ("           THIS IS YOUR KEY BRO")
-        print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        print ("")
-        myid=uuid.uuid4().hex[:10].upper()
-        print ("          YOUR KEY : "+ak+myid+imt)
-        print (" EASYPESA NUMBER 03463365636 ")
-        print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        kok=open('/data/data/com.termux/files/usr/bin/.mlk-cov', 'w')
-        kok.write(myid+imt)
-        kok.close()
-        print ("")
-        print ("PAID PKR 300")
-        print ("     COPY THE KEY AND SEND ME KN WHATSAPP BRO :) ")
-        print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        time.sleep(3.5)
-        tks = 'Hello%20Admin,%20Please%20Confirm%20My%20Key%20To%20Premium✓✓%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
-        os.system('am start https://wa.me/+994401314689?text=' + tks)
-        
-    r1=requests.get("https://raw.githubusercontent.com/Hamii-king-06/HAMII-ERROR/main/Approval.txt").text
-    if key1 in r1:
-        hamii()
-    else:
-        os.system("clear")
-        print(logo)
-        print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        print ("  YOUR TOKEN IS NOT APPROVED")
-        print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        print ("          THIS IS YOUR KEY BRO")
-        print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        print ("          YOUR KEY : "+ak+key1)
-        print (" EASYPESA NUMBER 03463365636 ")
-        print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        print (" PAID PKR 300 ")
-        print ("     COPY THE KEY AND SEND ME KN WHATSAPP BRO :) ")
-        print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        time.sleep(3.5)
-        tks = 'Hello%20Admin,%20Please%20Confirm%20My%20Key%20To%20Premium✓✓%20%20%20%20%20My%20%20Key%20%20:%20'+ak+''+key1
-        os.system('am start https://wa.me/+994401314689?text=' + tks)
-        
-
-
+     
 logo =                                          """   
 \033[1;31mO))     O))      O)       O))       O) )O) )O))
 \033[1;91mO))     O))     O) ))     O) O))   O)) )O) )O))
