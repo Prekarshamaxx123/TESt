@@ -77,7 +77,7 @@ def main_apv():
     os.system('clear')
     print(logo)
     try:
-        key1=open('/data/data/com.termux/files/usr/bin/.mlk-cov', 'r').read()
+      
     except IOError:
         os.system("clear")
         print(logo)
@@ -98,9 +98,6 @@ def main_apv():
         print ("PAID PKR 300")
         print ("     COPY THE KEY AND SEND ME KN WHATSAPP BRO :) ")
         print (' \x1b[1;91m[\x1b[1;93m•\x1b[1;91m]\x1b[1;93m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●')
-        time.sleep(3.5)
-        tks = 'Hello%20Admin,%20Please%20Confirm%20My%20Key%20To%20Premium✓✓%20% 20% 20%20%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
-        os.system('am start https://wa.me/+994401314689?text=' + tks)
         
         hamii()
     else:
