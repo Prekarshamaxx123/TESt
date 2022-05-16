@@ -47,7 +47,7 @@ def helpnote():
  
 
 
-		os.system("clear")
+	
 		
 		print ("""
 
