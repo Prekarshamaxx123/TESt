@@ -42,7 +42,9 @@ def runtxt(z):
 def helpnote():
 	print("%s [*] FOLLOW ME ON Fb TU KNOW ABOUT UPDATES  :)"%(G))
 	subprocess.check_output(["am", "start", "https://m.me/Naim.Vau80"])
-	exit(" [*] FACEBOOK :  https://www.facebook.com/Naim.Vau80")W = '\033[97;1m' 
+	exit(" [*] FACEBOOK :  https://www.facebook.com/Naim.Vau80")
+	
+W = '\033[97;1m' 
 R = '\033[91;1m' 
 G = '\033[92;1m' 
 Y = '\033[93;1m' 
