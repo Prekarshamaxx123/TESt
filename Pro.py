@@ -256,7 +256,6 @@ try:Main()
 
 
 
-import os
 try:
 	import requests
 except ImportError:
