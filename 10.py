@@ -42,6 +42,7 @@ def convert(cookie):
 	finally:
 		return token
 		
+os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 def real_time():
 	return str(mek()).split('.')[0]
 		
