@@ -68,8 +68,7 @@ class Main:
 		self.name,self.id = r['name'], r['id']
 		return {'name':self.name, 'id':self.id}
 			
-
-os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')		
+	
 	@property
 	def Menu(self):
 		try:
@@ -77,6 +76,8 @@ os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 		except KeyError:
 			os.remove("data/token");os.remove("data/coki")
 			exit(" ! Your token Expired ! ")
+			
+os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 		print(
 			f" >> Your Account: {info['name']}, {info['id']} << " 
 		)
